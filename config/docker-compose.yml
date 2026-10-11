@@ -1,0 +1,83 @@
+# 3-node Hadoop/Spark cluster + MongoDB for the Earthquake Analytics project.
+# Run from this folder:  docker compose build   then   docker compose up -d
+# Memory limits add up to about 8.5 GB (Docker is limited to ~8.7 GB via .wslconfig).
+
+x-node: &node
+  image: eq-hadoop:latest
+  build:
+    context: ..
+    dockerfile: config/Dockerfile
+  init: true
+  restart: unless-stopped
+  networks: [hadoop]
+
+services:
+  master:
+    <<: *node
+    container_name: master
+    hostname: master
+    environment:
+      ROLE: master
+    mem_limit: 2700m
+    ports:
+      - "9870:9870"    # HDFS NameNode UI
+      - "8088:8088"    # YARN ResourceManager UI
+      - "4040:4040"    # Spark UI (while a job runs)
+      - "10000:10000"  # HiveServer2
+    volumes:
+      - ..:/opt/project
+      - nn-data:/data/namenode
+      - hive-data:/data/hive
+
+  worker1:
+    <<: *node
+    container_name: worker1
+    hostname: worker1
+    environment:
+      ROLE: worker
+    mem_limit: 2700m
+    depends_on: [master]
+    ports:
+      - "9864:9864"    # DataNode UI
+      - "8042:8042"    # NodeManager UI
+    volumes:
+      - dn1-data:/data/datanode
+
+  worker2:
+    <<: *node
+    container_name: worker2
+    hostname: worker2
+    environment:
+      ROLE: worker
+    mem_limit: 2700m
+    depends_on: [master]
+    ports:
+      - "9865:9864"
+      - "8043:8042"
+    volumes:
+      - dn2-data:/data/datanode
+
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    hostname: mongo
+    init: true
+    restart: unless-stopped
+    command: ["mongod", "--wiredTigerCacheSizeGB", "0.25", "--bind_ip_all"]
+    mem_limit: 512m
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks: [hadoop]
+
+networks:
+  hadoop:
+    name: hadoop
+
+volumes:
+  nn-data:
+  dn1-data:
+  dn2-data:
+  hive-data:
+  mongo-data:
