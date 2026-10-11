@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<configuration>
+  <!-- metastore = embedded Derby kept in a Docker volume (fine for one HiveServer2) -->
+  <property><name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:derby:;databaseName=/data/hive/metastore_db;create=true</value></property>
+  <property><name>javax.jdo.option.ConnectionDriverName</name>
+    <value>org.apache.derby.jdbc.EmbeddedDriver</value></property>
+  <property><name>hive.metastore.warehouse.dir</name><value>/user/hive/warehouse</value></property>
+  <property><name>hive.metastore.schema.verification</name><value>false</value></property>
+
+  <property><name>hive.server2.thrift.port</name><value>10000</value></property>
+  <property><name>hive.server2.thrift.bind.host</name><value>0.0.0.0</value></property>
+  <property><name>hive.server2.authentication</name><value>NONE</value></property>
+  <property><name>hive.server2.enable.doAs</name><value>false</value></property>
+
+  <property><name>hive.exec.scratchdir</name><value>/tmp/hive</value></property>
+  <property><name>hive.exec.local.scratchdir</name><value>/tmp/hive/local</value></property>
+  <property><name>hive.downloaded.resources.dir</name><value>/tmp/hive/resources</value></property>
+  <property><name>hive.querylog.location</name><value>/tmp/hive/logs</value></property>
+  <property><name>hive.server2.logging.operation.log.location</name><value>/tmp/hive/operation_logs</value></property>
+</configuration>

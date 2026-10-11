@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+  <!-- every block is stored on 2 DataNodes -->
+  <property><name>dfs.replication</name><value>2</value></property>
+  <!-- 16 MB blocks so a ~100 MB file visibly spreads over both workers -->
+  <property><name>dfs.blocksize</name><value>16777216</value></property>
+  <property><name>dfs.namenode.name.dir</name><value>file:///data/namenode</value></property>
+  <property><name>dfs.datanode.data.dir</name><value>file:///data/datanode</value></property>
+  <property><name>dfs.namenode.rpc-bind-host</name><value>0.0.0.0</value></property>
+  <property><name>dfs.namenode.http-address</name><value>0.0.0.0:9870</value></property>
+  <property><name>dfs.permissions.enabled</name><value>false</value></property>
+  <property><name>dfs.namenode.datanode.registration.ip-hostname-check</name><value>false</value></property>
+</configuration>
