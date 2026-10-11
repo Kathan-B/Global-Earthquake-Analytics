@@ -1,0 +1,7 @@
+# keep Linux line endings so scripts run inside containers
+*.sh   text eol=lf
+*.xml  text eol=lf
+*.conf text eol=lf
+*.hql  text eol=lf
+*.py   text eol=lf
+Dockerfile text eol=lf
