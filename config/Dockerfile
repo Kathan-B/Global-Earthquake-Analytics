@@ -5,6 +5,7 @@ FROM ubuntu:22.04
 ARG HADOOP_VERSION=3.3.6
 ARG SPARK_VERSION=3.5.1
 ARG HIVE_VERSION=3.1.3
+ARG JAVA8_URL=https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u504-b01/OpenJDK8U-jre_x64_linux_hotspot_8u504b01.tar.gz
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -37,7 +38,14 @@ RUN curl -fL --retry 5 --retry-delay 5 -o /tmp/hive.tgz \
  && rm -f /tmp/hive.tgz /opt/hive/lib/guava-*.jar \
  && cp /opt/hadoop/share/hadoop/common/lib/guava-*.jar /opt/hive/lib/
 
+# Hive 3.1.3 requires Java 8; Hadoop and Spark continue to use Java 11.
+RUN curl -fL --retry 5 --retry-delay 5 -o /tmp/java8.tgz "${JAVA8_URL}" \
+ && mkdir -p /opt/java8 \
+ && tar -xzf /tmp/java8.tgz --strip-components=1 -C /opt/java8 \
+ && rm -f /tmp/java8.tgz
+
 ENV JAVA_HOME=/usr/lib/jvm/java-home \
+    HIVE_JAVA_HOME=/opt/java8 \
     HADOOP_HOME=/opt/hadoop \
     HADOOP_COMMON_HOME=/opt/hadoop \
     HADOOP_HDFS_HOME=/opt/hadoop \
