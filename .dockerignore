@@ -1,0 +1,8 @@
+.git
+.venv
+dataset
+output
+docs
+screenshots
+**/__pycache__
+*.pyc
