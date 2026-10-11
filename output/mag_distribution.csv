@@ -1,0 +1,5 @@
+mag_bucket,event_count,avg_mag,min_mag,max_mag,percentage
+minor,2100,2.67,0.7,2.99,21.2
+light,6985,4.2,3.0,4.9,70.51
+strong,815,5.3,5.0,6.9,8.23
+major,6,7.72,7.3,7.9,0.06

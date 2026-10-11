@@ -1,0 +1,118 @@
+region,event_count,avg_mag,max_mag,avg_depth
+Alaska,1462,3.09,5.9,50.65
+Indonesia,607,4.47,6.6,85.03
+Papua New Guinea,596,4.58,7.9,63.84
+Oklahoma,542,2.82,5.0,5.95
+New Zealand,443,4.51,7.8,21.09
+Puerto Rico,413,2.87,4.6,33.21
+Japan,398,4.55,6.9,45.49
+Solomon Islands,398,4.67,7.8,34.08
+Chile,290,4.39,7.6,58.03
+U.S. Virgin Islands,273,3.01,4.3,39.89
+Tonga,218,4.57,6.1,160.18
+Philippines,216,4.57,7.3,90.24
+California,203,2.96,6.6,9.45
+Fiji,153,4.56,6.9,354.17
+south of the Fiji Islands,131,4.48,6.9,488.44
+Argentina,128,4.39,6.4,157.36
+Russia,128,4.44,5.9,85.7
+Vanuatu,125,4.57,5.9,143.25
+CA,124,2.88,3.92,7.65
+Fiji region,114,4.43,5.6,538.91
+Peru,110,4.48,6.4,73.2
+Northern Mariana Islands,101,4.37,5.4,164.0
+Japan region,99,4.54,5.8,136.13
+Mexico,99,4.37,5.6,47.79
+Hawaii,98,3.01,4.7,15.62
+Greece,96,4.38,5.5,21.58
+Nevada,88,2.97,5.6,8.95
+South Sandwich Islands region,78,4.63,5.4,37.81
+Afghanistan,71,4.35,5.4,140.26
+Dominican Republic,71,3.44,4.8,78.72
+Tajikistan,71,4.48,6.6,60.87
+Italy,70,4.41,6.6,19.55
+Timor Leste,70,4.39,6.7,216.74
+China,69,4.55,6.0,21.93
+Guam,55,4.54,5.7,79.89
+Kermadec Islands region,55,4.51,5.6,92.5
+south of the Kermadec Islands,55,4.5,5.3,46.8
+Iran,51,4.36,5.1,14.37
+Canada,50,3.82,6.0,14.24
+Colombia,49,4.46,5.6,92.33
+MX,47,2.85,3.45,10.65
+Mariana Islands region,42,4.56,6.0,88.21
+Prince Edward Islands region,42,4.64,5.2,10.41
+El Salvador,39,4.51,6.9,33.85
+Southwest Indian Ridge,36,4.64,5.7,10.0
+India,35,4.54,5.7,45.44
+Kansas,35,2.83,3.5,5.31
+Pacific-Antarctic Ridge,34,5.03,5.6,10.33
+Turkey,33,4.49,5.6,12.42
+Banda Sea,32,4.37,5.3,141.73
+Ecuador,31,4.43,5.5,46.29
+Taiwan,31,4.52,5.8,32.74
+Guatemala,29,4.57,5.5,79.25
+Nicaragua,24,4.51,5.1,50.55
+Micronesia,23,4.82,6.2,21.19
+Mid-Indian Ridge,23,4.63,5.0,10.0
+Montana,22,2.92,3.49,8.47
+northern Mid-Atlantic Ridge,22,4.9,5.6,10.0
+southern Mid-Atlantic Ridge,22,4.82,5.3,10.0
+west of Macquarie Island,22,4.8,5.9,10.12
+Kuril Islands,20,4.55,4.9,81.23
+Bolivia,16,4.49,6.5,241.66
+South Georgia Island region,16,4.56,5.0,11.67
+Washington,16,3.0,4.09,15.6
+central Mid-Atlantic Ridge,16,4.71,5.5,10.0
+Anguilla,15,3.41,4.4,58.81
+Carlsberg Ridge,15,4.49,5.4,10.32
+Kyrgyzstan,15,4.37,4.7,31.29
+Myanmar,15,4.51,5.1,69.88
+Pakistan,15,4.61,6.3,22.34
+West Chile Rise,15,4.78,5.3,10.0
+western Indian-Antarctic Ridge,15,4.77,5.7,10.0
+Oregon,14,3.52,5.5,16.25
+Turkmenistan,14,4.55,5.4,19.11
+Utah,14,2.81,3.3,5.98
+Wallis and Futuna,13,4.56,5.5,290.81
+central East Pacific Rise,13,4.86,5.8,10.0
+New Caledonia,12,4.62,5.5,31.22
+southeast of the Loyalty Islands,12,4.61,5.4,27.53
+Panama,11,4.31,5.6,26.88
+Puerto Rico region,11,2.83,3.4,35.36
+Reykjanes Ridge,11,4.64,4.9,10.11
+off the coast of Oregon,11,4.01,5.0,10.0
+Balleny Islands region,10,4.59,4.9,10.06
+Colorado,10,2.86,3.3,4.14
+east of the North Island of New Zealand,10,4.47,4.9,14.56
+southeast Indian Ridge,10,4.68,5.5,10.0
+Scotia Sea,9,4.73,5.3,10.0
+Trinidad and Tobago,9,4.56,5.9,42.1
+Costa Rica,8,4.49,5.3,22.05
+Idaho,8,3.03,3.4,3.02
+Tennessee,8,2.59,2.82,10.86
+Venezuela,8,4.44,5.2,29.3
+Wyoming,8,2.76,3.0,6.95
+north of Ascension Island,8,4.93,5.6,10.0
+southeast of Easter Island,8,5.1,5.6,10.0
+southern East Pacific Rise,8,4.89,5.5,10.0
+southwest of Africa,8,4.66,5.2,10.0
+Owen Fracture Zone region,7,4.37,4.7,10.0
+off the coast of Central America,7,4.43,4.7,11.38
+south of Africa,7,4.5,5.1,10.0
+Mona Passage,6,2.9,3.1,25.33
+Nepal,6,4.75,5.4,11.92
+Virgin Islands,6,2.9,3.2,25.5
+Albania,5,4.32,4.5,9.64
+Algeria,5,4.72,5.2,13.41
+Australia,5,4.3,4.8,9.0
+Mauritius - Reunion region,5,4.74,5.13,12.61
+Romania,5,4.58,5.6,118.45
+Somalia,5,4.32,4.5,11.02
+South Indian Ocean,5,4.82,5.5,10.0
+Texas,5,2.84,3.0,4.29
+Vanuatu region,5,4.72,5.5,258.45
+north of Svalbard,5,4.38,4.7,11.56
+northwest of the Kuril Islands,5,4.16,4.3,406.93
+off the west coast of northern Sumatra,5,4.24,4.6,19.33
+south of Tonga,5,4.54,4.8,12.86
