@@ -1,4 +1,4 @@
-# 3-node Hadoop/Spark cluster + MongoDB for the Earthquake Analytics project.
+ # 3-node Hadoop/Spark cluster + MongoDB for the Earthquake Analytics project.
 # Run from this folder:  docker compose build   then   docker compose up -d
 # Memory limits add up to about 8.5 GB (Docker is limited to ~8.7 GB via .wslconfig).
 
