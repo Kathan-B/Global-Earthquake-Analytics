@@ -1,0 +1,9 @@
+cluster,quake_count,center_lat,center_lon,avg_depth,avg_mag,max_mag,top_region_1,top_region_2,top_region_3
+0,34138,37.5642,-113.0206,7.75,2.963,5.24,CA,Nevada,Oklahoma
+1,20208,30.4688,42.925,27.92,4.433,7.8,Greece,Iran,Afghanistan
+2,30699,-20.7787,33.5478,48.81,4.616,8.1,Papua New Guinea,Tonga,Vanuatu
+3,12579,-13.8108,-67.0181,510.19,4.374,8.2,south of the Fiji Islands,Fiji,Fiji region
+4,27081,-21.5354,-62.3788,60.29,4.577,8.2,Chile,South Sandwich Islands region,Argentina
+5,29015,18.3233,-68.4508,31.17,3.133,4.8,Puerto Rico,U.S. Virgin Islands,Dominican Republic
+6,79586,47.85,-139.2075,30.12,2.959,4.8,Alaska,Hawaii,Russia
+7,56389,18.8968,124.606,53.72,4.525,8.8,Indonesia,Japan,Philippines
