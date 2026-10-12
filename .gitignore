@@ -5,3 +5,10 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 config/downloads/
+scratch/
+merged_person_c_ai_agent_prompt.md
+output/clusters.parquet
+output/model
+output/points.parquet
+output/k_selection.parquet
+
