@@ -56,12 +56,13 @@ def query_2_strongest_regions(db):
 
     cursor = col.find(
         {},
-        {"_id": 0, "region": 1, "max_mag": 1, "avg_mag": 1, "quake_count": 1}
+        {"_id": 0, "region": 1, "max_mag": 1, "avg_mag": 1, "quake_count": 1, "event_count": 1}
     ).sort("max_mag", DESCENDING).limit(10)
 
     results = list(cursor)
     for i, r in enumerate(results, 1):
-        print(f" {i:2d}. {r.get('region')}: Max Mag = {r.get('max_mag')}, Avg Mag = {r.get('avg_mag')}, Total Quakes = {r.get('quake_count')}")
+        cnt = r.get("event_count") if r.get("event_count") is not None else r.get("quake_count")
+        print(f" {i:2d}. {r.get('region')}: Max Mag = {r.get('max_mag')}, Avg Mag = {r.get('avg_mag')}, Total Quakes = {cnt}")
 
 
 def query_3_cluster_points_aggregation(db):
@@ -103,7 +104,7 @@ def query_4_busiest_periods(db):
 
     # Check which count column exists
     sample = col.find_one({})
-    count_key = "quake_count" if "quake_count" in sample else ("count" if "count" in sample else None)
+    count_key = "event_count" if sample and "event_count" in sample else ("quake_count" if sample and "quake_count" in sample else ("count" if sample and "count" in sample else None))
 
     if count_key:
         cursor = col.find(
