@@ -1,6 +1,5 @@
-mag_bucket,quake_count
-Light (0-4.4),214666
-Moderate (4.5-5.9),73697
-Strong (6.0-6.9),1198
-Major (7.0-7.9),127
-Great (8.0+),7
+mag_bucket,event_count,avg_mag,min_mag,max_mag,percentage
+minor,2100,2.67,0.7,2.99,21.2
+light,6985,4.2,3.0,4.9,70.51
+strong,815,5.3,5.0,6.9,8.23
+major,6,7.72,7.3,7.9,0.06

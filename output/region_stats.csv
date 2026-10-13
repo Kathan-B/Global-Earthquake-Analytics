@@ -1,615 +1,118 @@
-region,quake_count,avg_mag,max_mag,avg_depth
-Alaska,61655,3.046,7.9,37.53
-Puerto Rico,18086,2.934,6.4,22.32
-Hawaii,17532,2.822,6.9,5.84
-Indonesia,16544,4.502,7.8,70.87
-CA,12069,2.941,6.4,8.28
-Russia,8399,4.455,7.8,47.11
-Japan,8372,4.504,7.4,55.04
-Philippines,7990,4.561,7.8,64.8
-Papua New Guinea,7195,4.57,7.9,65.48
-Chile,5895,4.362,7.6,68.9
-Tonga,5505,4.585,7.6,152.46
-South Sandwich Islands region,4264,4.688,7.5,36.16
-Vanuatu,3650,4.595,7.3,101.41
-U.S. Virgin Islands,3555,3.306,5.7,42.28
-south of the Fiji Islands,3475,4.448,7.0,456.88
-Mexico,3433,4.33,7.6,34.08
-Dominican Republic,3309,3.324,5.85,68.77
-New Zealand,3049,4.541,7.8,44.1
-Japan region,2975,4.516,6.6,97.87
-Fiji,2871,4.396,7.9,517.72
-Nevada,2869,2.937,5.68,7.35
-Greece,2721,4.377,7.0,18.77
-Kermadec Islands region,2634,4.634,7.0,67.44
-Argentina,2615,4.417,6.8,166.63
-Oklahoma,2563,2.832,5.06,6.31
-Texas,2436,2.84,5.4,6.56
-Solomon Islands,2403,4.606,7.8,51.03
-Fiji region,2358,4.381,7.0,538.27
-Idaho,2354,2.87,6.5,9.7
-Peru,2343,4.517,8.0,79.04
-China,2238,4.497,7.3,13.48
-Northern Mariana Islands,2195,4.381,6.9,137.5
-New Mexico,2093,2.859,5.4,6.59
-Wyoming,1948,3.113,4.65,0.87
-Iran,1813,4.404,6.4,11.18
-Timor Leste,1803,4.385,7.3,201.93
-Afghanistan,1729,4.33,6.5,138.26
-south of the Kermadec Islands,1469,4.567,7.4,39.16
-Taiwan,1442,4.534,7.4,24.48
-Turkey,1371,4.383,6.7,12.81
-Guam,1348,4.488,6.0,71.56
-India,1257,4.498,6.4,31.73
-New Caledonia,1242,4.69,7.5,12.42
-southeast of the Loyalty Islands,1240,4.694,7.7,16.27
-California,1046,2.925,6.6,8.74
-Colombia,1025,4.463,7.4,91.75
-Mid-Indian Ridge,920,4.667,6.1,10.03
-Canada,913,3.516,6.8,11.82
-Tajikistan,903,4.376,6.9,80.73
-Banda Sea,874,4.433,7.3,143.59
-MX,852,2.974,5.49,11.85
-Guatemala,825,4.411,6.9,55.43
-Reykjanes Ridge,825,4.594,6.9,10.01
-Montana,765,2.896,5.8,7.38
-northern Mid-Atlantic Ridge,753,4.707,6.7,10.0
-El Salvador,744,4.448,6.9,51.67
-Oregon,718,3.266,6.3,11.05
-southern Mid-Atlantic Ridge,707,4.814,6.2,10.01
-Nicaragua,694,4.49,6.6,55.16
-Puerto Rico region,633,2.95,5.2,20.95
-Kuril Islands,609,4.465,6.8,71.19
-Mariana Islands region,595,4.463,6.1,115.26
-central Mid-Atlantic Ridge,576,4.787,6.9,10.0
-Kansas,575,2.843,4.6,5.85
-Ecuador,563,4.456,7.5,62.43
-Utah,491,2.951,5.7,6.59
-Southwest Indian Ridge,473,4.678,6.2,10.0
-Myanmar,469,4.481,6.2,46.08
-Pacific-Antarctic Ridge,462,4.937,6.3,10.03
-Bolivia,445,4.386,6.8,228.24
-Wallis and Futuna,441,4.501,6.6,265.0
-off the coast of Oregon,434,3.92,6.0,10.1
-Panama,429,4.639,7.7,13.44
-Pakistan,426,4.42,6.3,19.83
-western Indian-Antarctic Ridge,412,4.605,6.3,10.0
-Ethiopia,410,4.464,5.9,10.02
-Carlsberg Ridge,403,4.546,6.3,10.03
-southern East Pacific Rise,369,4.894,6.7,10.01
-Costa Rica,366,4.438,6.5,27.86
-West Chile Rise,353,4.7,6.7,9.99
-Iceland,342,4.499,6.0,9.84
-Italy,340,4.204,6.6,63.45
-southeast Indian Ridge,311,4.687,6.6,10.0
-Washington,311,2.898,4.58,19.04
-central East Pacific Rise,301,4.742,6.1,10.0
-Venezuela,285,4.538,7.5,41.99
-south of Tonga,284,4.703,6.2,13.32
-Micronesia,283,4.699,6.4,18.5
-American Samoa,280,3.072,5.8,11.4
-west of Macquarie Island,263,4.765,6.6,10.04
-Gulf of Alaska,261,3.054,4.9,13.13
-south of Alaska,258,3.104,5.7,17.81
-South Shetland Islands,242,4.708,6.9,9.99
-Kyrgyzstan,236,4.394,5.8,16.22
-Balleny Islands region,234,4.81,6.3,10.02
-Mayotte,230,4.553,5.9,10.1
-Colorado,225,2.93,4.3,5.36
-south of Africa,223,4.649,6.6,9.99
-southeast of Easter Island,222,4.833,6.3,10.05
-Nepal,214,4.467,5.7,14.38
-Svalbard and Jan Mayen,210,4.5,6.7,9.98
-Somalia,210,4.474,5.9,10.02
-India region,204,4.598,6.1,16.33
-Minnesota,200,2.928,3.4,0.0
-Vanuatu region,199,4.648,7.3,277.27
-Mona Passage,199,3.154,4.6,52.54
-western Xizang,190,4.465,6.3,10.86
-Albania,189,4.374,6.4,11.44
-Australia,188,4.309,6.6,10.05
-north of Ascension Island,188,4.802,6.6,10.14
-Alaska Peninsula,181,2.935,5.1,52.02
-Burma (Myanmar),178,4.462,6.7,35.79
-Portugal,177,4.542,5.9,10.37
-Easter Island region,174,4.826,6.8,10.0
-Prince Edward Islands region,173,4.719,6.8,10.22
-Macquarie Island region,172,4.705,7.0,12.1
-Anguilla,170,3.818,5.2,40.42
-Russia region,168,4.404,7.7,12.68
-Tanzania,168,4.472,6.0,10.36
-Chagos Archipelago region,150,4.621,6.1,10.04
-Yemen,146,4.56,6.0,10.0
-north of Svalbard,143,4.41,5.8,10.05
-southwest of Africa,142,4.77,6.6,10.0
-Southern Alaska,139,2.952,5.0,68.85
-South Indian Ocean,137,4.698,6.1,10.15
-Honduras,136,4.452,7.5,24.06
-Owen Fracture Zone region,134,4.564,5.9,9.99
-Mongolia,133,4.52,6.7,10.55
-off the coast of Central America,131,4.485,6.3,14.97
-Scotia Sea,127,4.706,6.6,10.05
-Indian Ocean Triple Junction,125,4.658,5.7,10.0
-Iraq,123,4.423,7.3,10.34
-western Texas,120,2.827,4.5,6.54
-Arizona,119,2.867,4.4,8.31
-Tennessee,118,2.776,4.4,11.97
-South Africa,117,4.183,5.2,5.32
-Saint Helena,115,4.769,5.8,10.04
-Haiti,110,4.385,7.2,10.8
-east of the North Island of New Zealand,109,4.521,5.6,15.57
-Greenland Sea,105,4.492,5.7,9.96
-Missouri,103,2.785,4.0,8.31
-south of Panama,103,4.629,5.5,10.07
-east of the Kuril Islands,101,4.513,6.1,12.92
-Ascension Island region,98,4.82,6.1,10.07
-north of Severnaya Zemlya,98,4.502,5.2,10.06
-Guadeloupe,98,4.542,6.5,33.75
-NV,98,2.884,4.37,3.59
-Kazakhstan,97,4.358,5.3,15.5
-Virgin Islands,97,3.417,4.43,39.83
-Molucca Sea,96,4.491,6.6,51.54
-Drake Passage,93,4.891,7.6,9.93
-northern East Pacific Rise,87,4.63,5.9,10.0
-Mauritius,86,4.569,6.0,10.12
-Romania,86,4.352,5.6,95.97
-Revilla Gigedo Islands region,82,4.505,5.8,10.0
-northern Alaska,82,2.89,5.0,11.03
-Morocco,80,4.36,6.8,12.09
-Azerbaijan,80,4.466,5.6,25.64
-South Georgia Island region,79,4.618,5.3,10.79
-Democratic Republic of the Congo,78,4.522,5.3,10.03
-Central Alaska,77,2.897,4.3,70.66
-Turkmenistan,75,4.477,5.4,19.63
-Cayman Islands,74,4.419,7.6,10.13
-Croatia,71,3.993,6.4,10.65
-east of the South Sandwich Islands,71,4.955,6.6,10.07
-Poland,70,4.137,5.0,5.78
-Vietnam,65,4.332,5.1,10.25
-northwest of the Kuril Islands,65,4.275,5.9,386.74
-Bouvet Island region,65,4.915,6.7,10.09
-Galapagos Triple Junction region,63,4.568,5.7,10.0
-Mauritius - Reunion region,63,4.743,6.7,10.21
-Algeria,63,4.546,6.0,10.63
-Spain,63,3.959,5.2,12.57
-Bosnia and Herzegovina,62,3.927,5.7,11.14
-AK,59,2.922,4.3,39.46
-Saudi Arabia,58,4.397,5.2,10.01
-Central Turkey,58,4.352,5.3,10.21
-Nebraska,57,2.975,4.1,6.01
-Antigua and Barbuda,56,4.536,6.6,29.97
-Tonga region,55,4.658,5.7,15.68
-Cuba,54,4.487,6.8,12.55
-off the east coast of the North Island of New Zealand,54,4.526,5.6,75.63
-Cyprus,53,4.36,6.6,22.87
-Azores Islands region,52,4.681,5.4,10.13
-Southern Tibetan Plateau,52,4.454,5.2,10.0
-Arkansas,51,2.766,3.8,9.89
-Georgia,50,3.73,5.0,10.49
-Dominican Republic region,49,3.396,4.8,51.95
-off the coast of Ecuador,48,4.674,5.9,11.66
-Samoa,48,4.717,5.8,12.11
-Palau,47,4.619,6.2,11.13
-North Atlantic Ocean,47,4.653,6.3,10.0
-off the west coast of northern Sumatra,47,4.449,5.7,11.9
-Greenland,46,4.367,4.8,10.04
-Norwegian Sea,46,4.515,5.8,10.02
-Uzbekistan,46,4.474,5.3,17.12
-Trinidad and Tobago,44,4.55,5.9,33.83
-Uganda,44,4.432,5.3,10.49
-Louisiana,43,2.963,4.6,6.16
-southern Idaho,43,2.877,3.9,10.36
-west of the Galapagos Islands,40,4.49,5.3,10.0
-Eritrea,39,4.562,5.6,9.57
-Tristan da Cunha region,39,5.0,5.9,10.0
-Brazil,38,4.684,6.8,283.02
-South Atlantic Ocean,36,4.833,5.6,10.0
-Iceland region,35,4.409,5.1,10.05
-south of the Aleutian Islands,35,3.166,4.5,12.44
-Philippine Islands region,34,4.497,5.2,32.27
-Jamaica,34,4.085,7.7,10.37
-Malta,34,4.403,5.5,10.2
-Samoa Islands,33,3.015,3.7,11.28
-Southeastern Alaska,33,2.967,4.8,7.94
-Ohio,33,2.857,4.0,7.29
-Ecuador region,32,4.438,5.6,9.99
-Mozambique,32,4.488,5.6,10.53
-Guam region,32,4.491,5.7,94.64
-Martinique,31,4.471,5.8,75.23
-Taiwan region,31,4.368,5.5,20.84
-Zambia,30,4.43,5.9,13.01
-New Zealand region,30,4.75,6.6,14.92
-Syria,30,4.393,5.2,9.89
-off the coast of Washington,30,3.287,4.2,10.23
-Oman,29,4.459,5.4,10.0
-South Carolina,29,2.818,3.6,3.1
-Bangladesh,29,4.393,5.5,20.73
-Federated States of Micronesia,28,4.839,5.9,10.0
-Malawi,28,4.446,5.5,10.35
-Sea of Okhotsk,28,4.436,5.9,508.1
-France,28,3.825,4.8,7.56
-Rwanda,28,4.432,4.7,10.41
-Chile-Argentina border region,28,4.429,5.7,156.6
-Santa Cruz Islands,27,4.707,6.0,88.01
-eastern Turkey,26,4.365,5.4,10.59
-Armenia,25,4.268,5.3,9.79
-southern Iran,25,4.444,5.7,10.13
-Leeward Islands,25,4.047,5.0,62.05
-United Kingdom,24,3.363,4.6,9.41
-Laos,24,4.617,6.2,11.21
-North Macedonia,24,4.179,5.0,13.22
-Celebes Sea,24,4.233,4.5,489.29
-north of Franz Josef Land,23,4.548,5.9,10.17
-North Indian Ocean,23,4.509,5.1,10.04
-Saint Eustatius and Saba,23,3.63,4.44,70.33
-east of Severnaya Zemlya,23,4.409,5.4,10.0
-Egypt,22,4.35,5.5,11.45
-Zimbabwe,22,4.518,5.6,10.27
-Maine,22,2.75,3.8,7.5
-Kentucky,22,2.694,3.09,16.07
-Alabama,22,2.769,3.8,6.16
-North Carolina,22,2.782,5.1,4.5
-California-Nevada border region,21,2.829,4.3,6.89
-near the coast of Nicaragua,21,4.576,6.1,52.17
-Beaufort Sea,20,3.445,5.3,20.99
-Libya,20,4.26,5.2,10.48
-Djibouti,20,4.455,5.4,9.76
-Dominica,20,3.985,5.6,103.87
-Barbados,19,4.653,5.6,32.65
-Tunisia,19,4.484,5.1,10.07
-D'Entrecasteaux Islands region,19,4.532,5.6,10.0
-Falkland Islands region,19,4.637,5.1,10.04
-New York,19,2.824,3.8,6.42
-Sudan,19,4.337,4.8,10.0
-HI,19,2.9,3.87,16.59
-Illinois,19,2.988,3.8,13.48
-Chile-Bolivia border region,18,4.333,4.9,129.82
-South Dakota,18,2.928,3.7,6.63
-Bhutan,17,4.324,5.6,15.8
-Samoa Islands region,16,4.731,5.5,12.76
-Bulgaria,16,4.05,4.6,10.57
-Madagascar,15,4.72,5.5,10.9
-south of the Mariana Islands,15,4.667,5.1,17.72
-Norway,15,4.44,5.2,9.66
-Thailand,15,4.373,5.7,10.02
-Virginia,15,2.651,2.96,7.46
-Austria,15,3.7,4.2,7.85
-Afghanistan-Tajikistan-Pakistan region,15,4.26,4.9,180.19
-Saint Kitts and Nevis,14,4.029,4.6,95.17
-OR,14,3.166,5.24,16.62
-North Korea,14,4.321,6.3,323.84
-Botswana,14,4.707,6.5,12.54
-Flores Sea,14,4.736,7.3,189.09
-Montenegro,14,4.107,5.1,10.28
-Malaysia,14,4.807,7.1,234.81
-off the coast of Northern California,13,3.015,4.1,11.01
-Federated States of Micronesia region,13,4.6,5.4,11.72
-central Peru,13,4.408,5.0,71.82
-Namibia,13,4.592,5.4,9.79
-near the north coast of Greenland,13,4.531,5.8,10.04
-off the west coast of the South Island of New Zealand,13,4.523,5.6,15.57
-Santa Cruz Islands region,12,4.458,4.9,275.42
-Afghanistan-Tajikistan border region,12,4.308,5.1,71.73
-South Pacific Ocean,12,4.975,5.3,10.0
-South Korea,12,4.242,5.5,10.38
-Davis Strait,12,4.358,5.2,10.38
-off the coast of Southeastern Alaska,12,2.942,4.3,10.62
-northern Colombia,12,4.458,5.0,143.38
-Gabon,12,4.692,5.5,9.83
-east central Pacific Ocean,12,4.558,5.6,10.0
-North Pacific Ocean,11,4.609,6.0,10.0
-southern Peru,11,4.564,5.0,77.69
-Western Turkey,11,4.345,5.0,24.1
-Burundi,11,4.5,5.2,10.09
-Tajikistan-Xinjiang border region,11,4.545,5.9,83.54
-Socotra region,11,4.445,5.4,10.0
-Switzerland,11,3.855,4.4,6.67
-northwest of Australia,10,4.51,5.7,10.0
-Eastern Montana,10,3.03,3.4,0.5
-Ukraine,10,4.35,4.8,11.85
-eastern Greenland,10,4.63,5.3,8.98
-Western Montana,10,2.77,3.2,11.92
-near the coast of Guatemala,10,4.49,5.1,41.98
-Sea of Japan,10,4.45,5.4,427.1
-Bering Sea,10,3.91,4.7,10.97
-southeast central Pacific Ocean,9,4.656,5.2,9.86
-Lebanon,9,3.856,4.4,11.35
-Guyana,9,4.489,5.5,10.83
-South Island of New Zealand,9,4.122,4.6,42.91
-south of Australia,9,4.644,5.6,10.0
-Bering Strait,9,2.833,3.8,19.26
-Bay of Bengal,9,4.633,5.0,14.72
-Peru-Ecuador border region,9,4.533,5.6,64.45
-Turkey-Syria border region,9,4.4,5.6,10.23
-Israel,9,3.867,4.7,10.0
-New Jersey,9,2.911,3.7,7.24
-near the coast of Venezuela,9,4.489,4.9,69.28
-Iran-Iraq border region,9,4.344,4.8,10.44
-Xizang-Qinghai border region,9,4.456,5.9,12.78
-Grenada,8,4.562,5.5,102.28
-Eastern Xizang,8,4.425,4.7,14.45
-northeast of Taiwan,8,4.388,5.1,112.62
-Arctic Ocean,8,4.212,4.7,10.0
-Arafura Sea,8,4.588,5.0,10.72
-Florida,8,3.625,4.0,2.25
-Angola,8,4.412,5.1,10.0
-Gulf of America,8,4.25,4.5,10.63
-southern Pacific Ocean,8,4.925,5.7,10.55
-Gulf of Aden,7,4.571,5.2,10.0
-Azores-Cape St. Vincent Ridge,7,4.743,5.5,10.0
-Alaska region,7,2.857,3.7,10.0
-North Island of New Zealand,7,4.686,5.3,54.11
-Aegean Sea,7,4.386,4.6,10.87
-Hungary,7,3.829,4.5,10.21
-Bismarck Sea,7,4.786,5.9,92.3
-Saint Lucia,7,3.857,4.4,48.3
-Svalbard region,7,4.586,4.9,10.0
-Western Australia,7,4.4,4.7,10.12
-southwestern Atlantic Ocean,7,4.6,4.9,9.92
-Kuwait,6,4.367,4.7,10.0
-Laptev Sea,6,4.483,5.1,10.0
-Pennsylvania,6,2.842,3.44,7.56
-Peru-Bolivia border region,6,4.317,4.8,162.93
-Serbia,6,3.833,4.2,10.12
-near the coast of northern Peru,6,4.6,5.1,38.08
-Kosovo,6,3.7,4.5,10.0
-near the coast of Ecuador,6,4.367,4.7,30.15
-Kenya,6,4.467,5.0,9.93
-Jan Mayen Island region,6,4.45,5.3,10.0
-Guinea,6,4.567,5.0,10.61
-Near the coast of southern Peru,6,4.3,4.8,41.05
-Haiti region,6,4.267,4.9,10.0
-north of Macquarie Island,6,4.917,5.8,10.0
-Canada region,6,4.095,4.9,9.9
-Germany,6,3.5,4.1,10.74
-Mozambique Channel,5,4.44,4.8,10.0
-Myanmar-India border region,5,4.22,4.5,82.95
-Southern Peru,5,4.46,5.0,121.16
-Xinjiang-Xizang border region,5,4.24,4.3,12.58
-Mississippi,5,2.904,3.7,9.62
-New Hampshire,5,2.76,2.9,7.41
-West Virginia,5,2.764,3.2,15.39
-South Sudan,5,4.42,4.8,10.0
-OK,5,2.68,2.83,7.07
-Alaska Earthquake,5,7.62,8.2,30.87
-Palau region,5,4.62,5.2,11.02
-Kiribati region,5,4.76,5.1,10.0
-Ionian Sea,5,4.3,4.3,14.71
-Mayotte region,5,4.52,4.7,11.02
-Baffin Bay,5,4.28,4.6,12.79
-Broken Ridge,5,4.92,5.3,10.0
-Off the coast of Oregon,5,4.1,5.0,10.0
-Northern California,5,2.722,2.82,9.32
-Gulf of California,5,4.72,6.4,8.8
-Saint Vincent and the Grenadines,4,4.225,4.8,88.89
-East Timor region,4,4.35,4.7,21.21
-northern Peru,4,4.675,5.0,68.71
-southern Greece,4,4.3,4.4,24.17
-Sweden,4,3.5,4.9,7.75
-Slovakia,4,3.75,5.0,8.34
-Strait of Gibraltar,4,4.65,5.5,11.07
-off the south coast of Australia,4,4.475,5.1,10.42
-Saint Pierre and Miquelon,4,4.225,4.5,10.0
-south of Timor,4,4.45,4.8,10.0
-Central Peru,4,4.4,4.9,148.65
-Kazakhstan-Xinjiang border region,4,4.1,4.4,20.34
-Japan Earthquake,4,7.25,7.6,20.68
-Iowa,4,2.875,3.3,2.5
-near the south coast of Myanmar,4,3.9,4.3,11.36
-Near the coast of Guatemala,4,4.5,4.8,18.99
-central Italy,4,4.6,5.6,11.4
-Antarctica,4,4.475,4.9,10.0
-western Iran,4,4.525,4.7,10.0
-eastern Mediterranean Sea,4,4.525,4.8,23.37
-east of the Philippine Islands,4,4.925,6.2,10.04
-Indiana,4,2.57,2.6,6.23
-Maldives,4,4.625,4.9,10.0
-north of Honduras,4,4.625,5.5,10.0
-Qatar,4,4.075,4.1,9.97
-Crozet Islands region,4,4.7,5.7,10.0
-Michigan,4,2.975,3.4,4.94
-off the coast of northern Peru,4,4.475,4.6,24.2
-West of the Queen Charlotte Islands,3,3.633,4.0,9.0
-near the coast of central Peru,3,4.4,4.6,18.33
-Netherlands,3,3.233,3.8,6.67
-Kentucky-Tennessee border region,3,2.643,2.83,14.91
-Mexico-Guatemala border region,3,4.533,5.0,144.72
-Maryland,3,3.233,4.6,6.99
-near the coast of Libya,3,4.067,4.1,10.0
-near the coast of Northern California,3,3.663,4.04,21.3
-western Greenland,3,4.4,4.7,10.61
-southeastern Missouri,3,2.61,2.64,7.51
-southeast of Australia,3,4.333,4.6,10.0
-west of Vancouver Island,3,4.1,4.2,10.0
-central Mediterranean Sea,3,4.267,4.4,28.24
-Kyrgyzstan-Xinjiang border region,3,4.867,5.1,13.46
-near the north coast of Colombia,3,4.533,5.2,35.44
-Cyprus region,3,4.433,4.8,18.85
-UT,3,2.85,3.07,14.3
-northwestern Kashmir,3,4.233,4.4,60.81
-off the coast of Mexico,3,4.467,4.8,12.22
-Panama-Costa Rica border region,3,4.633,5.3,13.29
-Northeastern Iran,3,4.067,4.2,10.0
-northern Algeria,3,4.2,4.5,10.0
-Northwestern Iran,3,4.1,4.3,10.0
-French Southern Territories,3,4.833,5.2,13.0
-Uzbekistan-Kyrgyzstan border region,3,4.233,4.3,11.88
-WY,3,3.067,3.5,0.0
-WA,3,3.22,4.31,40.03
-Australia region,3,4.767,5.2,10.0
-Burma,3,4.5,4.6,10.0
-Tibetan Plateau,3,4.833,5.2,10.32
-Bahamas,3,4.2,4.5,10.0
-19 km NNE of Ta,2,2.95,3.0,12.57
-21 km NNE of Ta,2,4.2,4.5,10.0
-Ridgecrest Earthquake Sequence,2,6.75,7.1,9.25
-United States,2,2.85,3.2,10.0
-Turkey-Iran border region,2,4.25,4.3,10.0
-Russia Earthquake,2,8.1,8.8,34.5
-Russia-Mongolia border region,2,4.15,4.2,10.33
-Tuvalu,2,4.6,4.8,17.84
-South Georgia Rise,2,4.85,5.1,10.0
-Timor region,2,4.25,4.4,97.78
-South Australia,2,4.35,4.4,10.0
-South China Sea,2,4.9,5.3,12.72
-Southern Iran,2,4.35,4.5,10.0
-Pitcairn Islands region,2,4.95,5.0,10.0
-Idaho-Montana border region,2,2.655,2.7,6.64
-India-Bangladesh border region,2,4.55,5.0,10.0
-French Polynesia region,2,4.6,4.8,10.0
-Greece-Albania border region,2,4.35,4.4,10.0
-East of the Volcano Islands,2,4.75,4.9,10.0
-French Guiana,2,3.9,4.4,12.98
-Eritrea-Ethiopia border region,2,4.3,4.3,10.0
-Denmark,2,3.65,3.8,10.0
-Comoros,2,4.65,5.0,10.0
-Juan Fernandez Islands region,2,4.35,4.5,10.0
-KS,2,2.6,2.7,4.69
-eastern Sea of Japan,2,4.4,4.8,249.04
-near the coast of central Chile,2,4.2,4.4,39.78
-Kashmir-India border region,2,4.45,4.6,45.68
-Kahramanmaras earthquake sequence,2,7.65,7.8,8.72
-MO,2,2.615,2.72,4.04
-MT,2,2.77,2.8,7.45
-central Iran,2,4.15,4.2,10.0
-Kyrgyzstan-Tajikistan border region,2,4.5,4.6,10.0
-Lomonosov Ridge,2,4.95,5.0,10.0
-Kashmir-Xinjiang border region,2,4.6,4.9,54.2
-Massachusetts,2,3.1,3.6,10.0
-Wisconsin,2,2.7,2.9,8.24
-Windward Islands,2,4.35,4.4,27.24
-Washington-Oregon border region,2,2.705,2.85,6.44
-Mongolia-China border region,2,4.45,4.5,10.0
-Near the coast of Azerbaijan,2,4.15,4.2,25.48
-Virginia-North Carolina border region,2,2.58,2.59,3.41
-Northern Iran,2,4.35,4.6,10.0
-Virgin Islands region,2,3.595,3.76,52.93
-Northern Peru,2,4.4,4.5,156.89
-Czechia,2,3.0,3.2,7.5
-off the east coast of the South Island of New Zealand,2,4.65,4.9,10.0
-Central California,2,2.97,3.18,21.14
-Chad,2,4.4,4.4,10.0
-northwest of New Zealand,2,4.6,4.9,10.0
-Congo-Uganda,2,4.65,4.7,12.39
-Belgium,2,2.7,2.9,10.04
-Caspian Sea,2,4.4,4.5,54.36
-Bermuda,2,4.15,4.3,7.26
-western Uzbekistan,2,4.45,4.5,9.93
-16 km NNE of Ta,2,3.15,3.4,10.3
-southeast of the Galapagos Islands,2,4.65,4.8,10.0
-Bali Sea,2,4.4,4.4,407.43
-ID,2,2.6,2.7,7.44
-Sao Tome and Principe,1,5.5,5.5,10.0
-South of the Mariana Islands,1,4.6,4.6,10.0
-TN,1,2.5,2.5,6.56
-west of the Mariana Islands,1,4.6,4.6,10.0
-west of Australia,1,4.3,4.3,10.0
-Texas Earthquake,1,5.1,5.1,6.13
-Adriatic Sea,1,4.4,4.4,10.0
-20 km NNE of Ta,1,3.9,3.9,9.86
-2021 South Sandwich Islands Earthquake,1,8.1,8.1,22.79
-2018 Fiji Earthquake,1,8.2,8.2,600.0
-2025 Drake Passage Earthquake,1,7.4,7.4,10.0
-2025 Hubbard Glacier Earthquake,1,7.0,7.0,10.32
-2025 Southern Drake Passage Earthquake,1,7.5,7.5,10.0
-2025 Southern Tibetan Plateau Earthquake,1,7.1,7.1,10.0
-southwest of the Galapagos Islands,1,4.6,4.6,10.0
-southwest of Australia,1,4.7,4.7,10.0
-southwestern Pakistan,1,4.9,4.9,10.0
-Savu Sea,1,5.0,5.0,58.58
-Oregon-Idaho border region,1,3.1,3.1,11.5
-Reunion,1,4.1,4.1,14.08
-Pyrenees,1,4.1,4.1,2.65
-Portugal region,1,4.9,4.9,11.68
-United Arab Emirates,1,4.3,4.3,11.48
-Slovenia,1,4.0,4.0,11.1
-Turkmenistan-Iran border region,1,4.8,4.8,10.0
-Tyrrhenian Sea,1,4.0,4.0,386.04
-Russia-Georgia border region,1,4.4,4.4,10.0
-Tennessee-Virginia border region,1,3.1,3.1,0.0
-Taiwan Earthquake,1,6.0,6.0,8.0
-TX,1,2.6,2.6,5.0
-Trinidad,1,4.2,4.2,10.0
-Near the coast of western Turkey,1,4.6,4.6,12.54
-West of the Mariana Islands,1,4.5,4.5,10.0
-Western Caribbean Sea,1,5.4,5.4,10.0
-Mauritania,1,4.4,4.4,10.0
-NV Earthquake,1,6.5,6.5,2.7
-NM,1,2.5,2.5,7.29
-Myanmar-China border region,1,4.2,4.2,10.0
-Montserrat,1,4.1,4.1,168.11
-Nepal-India border region,1,4.0,4.0,10.0
-Niger,1,4.6,4.6,10.0
-New Zealand Earthquake,1,8.1,8.1,28.93
-Near the coast of Oman,1,4.6,4.6,10.0
-North Dakota,1,2.6,2.6,5.0
-New Jersey Earthquake,1,4.8,4.8,2.62
-Peru-Brazil border region,1,4.9,4.9,605.39
-Northern Texas,1,2.6,2.6,6.83
-North of the Dominican Republic,1,3.2,3.2,10.0
-North of the Virgin Islands,1,4.5,4.5,23.94
-Panama-Colombia border region,1,4.5,4.5,10.0
-Java Sea,1,6.6,6.6,533.76
-Jordan,1,4.1,4.1,10.0
-near the coast of Washington,1,2.92,2.92,27.91
-Jamaica region,1,4.5,4.5,10.0
-near the coast of Oregon,1,2.65,2.65,6.47
-Kazakhstan-Uzbekistan border region,1,4.2,4.2,10.0
-Kerguelen Islands region,1,4.3,4.3,11.49
-eastern Russia-northeastern China border region,1,4.3,4.3,520.24
-Kahramanmaras Earthquake Sequence,1,4.1,4.1,10.0
-Macedonia-Serbia border region,1,3.1,3.1,9.21
-Kyrgyzstan-Tajikistan-Xinjiang border region,1,4.3,4.3,10.0
-eastern Kashmir,1,4.4,4.4,10.0
-Labrador Sea,1,4.5,4.5,10.0
-Laccadive Sea,1,4.5,4.5,10.0
-Lake Almanor Earthquake,1,5.48,5.48,5.85
-Ligurian Sea,1,4.5,4.5,10.0
-Mexico Earthquake,1,8.2,8.2,47.39
-MN,1,3.0,3.0,0.0
-Louisiana Earthquake,1,4.9,4.9,2.48
-Malta region,1,4.4,4.4,10.0
-Washington-British Columbia border region,1,2.55,2.55,20.61
-Nevada Earthquake,1,5.71,5.71,8.0
-Near the coast of Syria,1,4.0,4.0,10.0
-north of Panama,1,4.1,4.1,17.93
-Equatorial Guinea,1,4.4,4.4,10.0
-Ghana,1,4.0,4.0,10.0
-Georgia-Turkey border region,1,4.4,4.4,10.0
-French Polynesia,1,4.5,4.5,10.0
-Honduras-Guatemala border region,1,4.4,4.4,10.0
-Gulf of Maine,1,2.6,2.6,9.99
-Illinois-Indiana border region,1,3.82,3.82,6.26
-Hong Kong,1,3.8,3.8,10.0
-Croatia region,1,4.4,4.4,10.0
-Cook Islands region,1,4.4,4.4,10.0
-off the coast of South Africa,1,4.6,4.6,10.0
-off the coast of central Peru,1,4.6,4.6,11.69
-off the coast of Pakistan,1,4.3,4.3,10.0
-off the coast of Costa Rica,1,4.7,4.7,18.92
-Finland,1,3.5,3.5,10.0
-Eastern Iran,1,4.4,4.4,10.0
-Eswatini,1,3.7,3.7,5.0
-Hawaiian Islands region,1,3.0,3.0,15.38
-north of the New Siberian Islands,1,4.6,4.6,10.0
-south of Tasmania,1,4.7,4.7,10.0
-Delaware,1,4.1,4.1,9.87
-off the east coast of the United States,1,4.5,4.5,10.0
-Dead Sea region,1,4.1,4.1,10.0
-Cuba region,1,3.3,3.3,10.0
-California Earthquake,1,7.0,7.0,10.0
-Cabo Verde,1,4.9,4.9,16.25
-Burma (Myanmar) Earthquake,1,7.7,7.7,10.0
-Colombia-Ecuador border region,1,4.5,4.5,10.0
-Cayman Islands region,1,4.1,4.1,10.0
-Central Afghanistan,1,5.1,5.1,10.0
-south of New Zealand,1,5.5,5.5,10.0
-Bay of Campeche,1,4.2,4.2,9.82
-Arabian Sea,1,4.4,4.4,10.0
-Blue Origin New Glenn rocket explosion,1,2.5,2.5,0.0
-Cape Verde,1,5.3,5.3,10.0
-southeast of Taiwan,1,4.8,4.8,10.0
-southern Italy,1,4.3,4.3,248.32
-southeastern China,1,4.6,4.6,13.78
-15 km NNE of Ta,1,3.3,3.3,11.94
-western Xizang-India border region,1,4.3,4.3,10.0
+region,event_count,avg_mag,max_mag,avg_depth
+Alaska,1462,3.09,5.9,50.65
+Indonesia,607,4.47,6.6,85.03
+Papua New Guinea,596,4.58,7.9,63.84
+Oklahoma,542,2.82,5.0,5.95
+New Zealand,443,4.51,7.8,21.09
+Puerto Rico,413,2.87,4.6,33.21
+Japan,398,4.55,6.9,45.49
+Solomon Islands,398,4.67,7.8,34.08
+Chile,290,4.39,7.6,58.03
+U.S. Virgin Islands,273,3.01,4.3,39.89
+Tonga,218,4.57,6.1,160.18
+Philippines,216,4.57,7.3,90.24
+California,203,2.96,6.6,9.45
+Fiji,153,4.56,6.9,354.17
+south of the Fiji Islands,131,4.48,6.9,488.44
+Argentina,128,4.39,6.4,157.36
+Russia,128,4.44,5.9,85.7
+Vanuatu,125,4.57,5.9,143.25
+CA,124,2.88,3.92,7.65
+Fiji region,114,4.43,5.6,538.91
+Peru,110,4.48,6.4,73.2
+Northern Mariana Islands,101,4.37,5.4,164.0
+Japan region,99,4.54,5.8,136.13
+Mexico,99,4.37,5.6,47.79
+Hawaii,98,3.01,4.7,15.62
+Greece,96,4.38,5.5,21.58
+Nevada,88,2.97,5.6,8.95
+South Sandwich Islands region,78,4.63,5.4,37.81
+Afghanistan,71,4.35,5.4,140.26
+Dominican Republic,71,3.44,4.8,78.72
+Tajikistan,71,4.48,6.6,60.87
+Italy,70,4.41,6.6,19.55
+Timor Leste,70,4.39,6.7,216.74
+China,69,4.55,6.0,21.93
+Guam,55,4.54,5.7,79.89
+Kermadec Islands region,55,4.51,5.6,92.5
+south of the Kermadec Islands,55,4.5,5.3,46.8
+Iran,51,4.36,5.1,14.37
+Canada,50,3.82,6.0,14.24
+Colombia,49,4.46,5.6,92.33
+MX,47,2.85,3.45,10.65
+Mariana Islands region,42,4.56,6.0,88.21
+Prince Edward Islands region,42,4.64,5.2,10.41
+El Salvador,39,4.51,6.9,33.85
+Southwest Indian Ridge,36,4.64,5.7,10.0
+India,35,4.54,5.7,45.44
+Kansas,35,2.83,3.5,5.31
+Pacific-Antarctic Ridge,34,5.03,5.6,10.33
+Turkey,33,4.49,5.6,12.42
+Banda Sea,32,4.37,5.3,141.73
+Ecuador,31,4.43,5.5,46.29
+Taiwan,31,4.52,5.8,32.74
+Guatemala,29,4.57,5.5,79.25
+Nicaragua,24,4.51,5.1,50.55
+Micronesia,23,4.82,6.2,21.19
+Mid-Indian Ridge,23,4.63,5.0,10.0
+Montana,22,2.92,3.49,8.47
+northern Mid-Atlantic Ridge,22,4.9,5.6,10.0
+southern Mid-Atlantic Ridge,22,4.82,5.3,10.0
+west of Macquarie Island,22,4.8,5.9,10.12
+Kuril Islands,20,4.55,4.9,81.23
+Bolivia,16,4.49,6.5,241.66
+South Georgia Island region,16,4.56,5.0,11.67
+Washington,16,3.0,4.09,15.6
+central Mid-Atlantic Ridge,16,4.71,5.5,10.0
+Anguilla,15,3.41,4.4,58.81
+Carlsberg Ridge,15,4.49,5.4,10.32
+Kyrgyzstan,15,4.37,4.7,31.29
+Myanmar,15,4.51,5.1,69.88
+Pakistan,15,4.61,6.3,22.34
+West Chile Rise,15,4.78,5.3,10.0
+western Indian-Antarctic Ridge,15,4.77,5.7,10.0
+Oregon,14,3.52,5.5,16.25
+Turkmenistan,14,4.55,5.4,19.11
+Utah,14,2.81,3.3,5.98
+Wallis and Futuna,13,4.56,5.5,290.81
+central East Pacific Rise,13,4.86,5.8,10.0
+New Caledonia,12,4.62,5.5,31.22
+southeast of the Loyalty Islands,12,4.61,5.4,27.53
+Panama,11,4.31,5.6,26.88
+Puerto Rico region,11,2.83,3.4,35.36
+Reykjanes Ridge,11,4.64,4.9,10.11
+off the coast of Oregon,11,4.01,5.0,10.0
+Balleny Islands region,10,4.59,4.9,10.06
+Colorado,10,2.86,3.3,4.14
+east of the North Island of New Zealand,10,4.47,4.9,14.56
+southeast Indian Ridge,10,4.68,5.5,10.0
+Scotia Sea,9,4.73,5.3,10.0
+Trinidad and Tobago,9,4.56,5.9,42.1
+Costa Rica,8,4.49,5.3,22.05
+Idaho,8,3.03,3.4,3.02
+Tennessee,8,2.59,2.82,10.86
+Venezuela,8,4.44,5.2,29.3
+Wyoming,8,2.76,3.0,6.95
+north of Ascension Island,8,4.93,5.6,10.0
+southeast of Easter Island,8,5.1,5.6,10.0
+southern East Pacific Rise,8,4.89,5.5,10.0
+southwest of Africa,8,4.66,5.2,10.0
+Owen Fracture Zone region,7,4.37,4.7,10.0
+off the coast of Central America,7,4.43,4.7,11.38
+south of Africa,7,4.5,5.1,10.0
+Mona Passage,6,2.9,3.1,25.33
+Nepal,6,4.75,5.4,11.92
+Virgin Islands,6,2.9,3.2,25.5
+Albania,5,4.32,4.5,9.64
+Algeria,5,4.72,5.2,13.41
+Australia,5,4.3,4.8,9.0
+Mauritius - Reunion region,5,4.74,5.13,12.61
+Romania,5,4.58,5.6,118.45
+Somalia,5,4.32,4.5,11.02
+South Indian Ocean,5,4.82,5.5,10.0
+Texas,5,2.84,3.0,4.29
+Vanuatu region,5,4.72,5.5,258.45
+north of Svalbard,5,4.38,4.7,11.56
+northwest of the Kuril Islands,5,4.16,4.3,406.93
+off the west coast of northern Sumatra,5,4.24,4.6,19.33
+south of Tonga,5,4.54,4.8,12.86
